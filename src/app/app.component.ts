@@ -12,8 +12,8 @@ export class AppComponent implements OnInit {
   getObs1(){
     // return of(1);
     // return interval(2000);
-    // return timer(1000);
-    return throwError(">> Something went wrong...ERROR!");
+    return timer(1000);
+    // return throwError(">> Something went wrong...ERROR!");
   }
 
   getObs2(d){
